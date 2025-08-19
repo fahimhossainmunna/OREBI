@@ -17,7 +17,10 @@ const Header = () => {
         <Container>
           <Flex className={"justify-between"}>
             <div className="w-[40%]">
-              <Image imgSrc={logo} />
+              <Link to={"/"}>
+                {" "}
+                <Image imgSrc={logo} />
+              </Link>
             </div>
             <div className="w-[70%]">
               <ul className="flex gap-x-3 text-menuColor text-[14px]">
@@ -26,22 +29,23 @@ const Header = () => {
                     Home
                   </li>
                 </Link>
-                <Link to={"/shop"}>
+                <Link to={"Shop"}>
                   <li className="hover:text-menuHover hover:font-bold duration-200">
                     Shop
                   </li>
                 </Link>
-                <Link to={"/about"}>
+                <Link to={"About"}>
                   <li className="hover:text-menuHover hover:font-bold duration-200">
-                    About
+                    About{" "}
                   </li>
                 </Link>
-                <Link to={"/Contacts"}>
+                <Link to={"Contacts"}>
+                  {" "}
                   <li className="hover:text-menuHover hover:font-bold duration-200">
                     Contacts
                   </li>
                 </Link>
-                <Link to={"/Journal"}>
+                <Link to={"Journal"}>
                   <li className="hover:text-menuHover hover:font-bold duration-200">
                     Journal
                   </li>
@@ -58,20 +62,20 @@ const Header = () => {
               <FaBarsStaggered />
               <h3>Shop by Category</h3>
             </div>
-           
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Search Products"
+
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search Products"
                 className="border border-black px-4 py-2 w-[600px] bg-white rounded-[2px] outline-0 placeholder:text-[#C4C4C4]"
-                />
-                <FaSearch className="absolute right-5 top-1/2 -translate-y-1/2" />
-              </div>
-            
+              />
+              <FaSearch className="absolute right-5 top-1/2 -translate-y-1/2" />
+            </div>
+
             <div className="flex items-center gap-x-3">
               <div className="flex items-center">
                 <FaUserAlt />
-              <FaCaretDown />
+                <FaCaretDown />
               </div>
               <FaCartPlus />
             </div>
