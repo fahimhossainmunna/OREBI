@@ -7,7 +7,7 @@ const NextArrow = (props) => {
 
   return (
     <div
-      className={"text-5xl text-transparent hover:text-blue-950 absolute duration-500 right-5 top-1/2 -translate-y-1/2"}
+      className={"text-5xl text-transparent hover:text-blue-900 absolute duration-500 right-5 top-1/2 -translate-y-1/2"}
     
       onClick={onClick}
     ><RiArrowRightSLine />
