@@ -2,22 +2,13 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Product from "../Product";
-import clock from "/src/assets/clock.png";
-import wacth from "/src/assets/band.png";
-import bucket from "/src/assets/bucket.png";
-import cat from "/src/assets/cat.png";
+import Hello from "/src/assets/cap.png";
+
 import { Link } from "react-router-dom";
 import Image from "../Image";
-import addsTwo from "/src/assets/ads2.png";
-import bottle from "/src/assets/bottol.png";
-import backPack from "/src/assets/bagpack.png";
-import mashla from "/src/assets/moshla.png";
-import munna from "/src/assets/backpacktwo.png";
 
-import cap from "/src/assets/cap.png";
-import table from "/src/assets/table.png";
-import headphn from "/src/assets/headephn.png";
-import sunglass from "/src/assets/sunglass.png";
+
+
 
 // ==============================
 import "slick-carousel/slick/slick.css";
@@ -48,22 +39,22 @@ const NewArrivals = () => {
           {/* =============== */}
           <Slider {...settings}>
             <div>
-              <Product productImg={clock} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={wacth} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={bucket} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={cat} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={clock} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={wacth} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
           </Slider>
           {/* =============== */}
@@ -77,22 +68,22 @@ const NewArrivals = () => {
           {/* =============== */}
           <Slider {...settings}>
             <div>
-              <Product productImg={bottle} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={backPack} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={mashla} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={munna} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={bottle} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={backPack} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
           </Slider>
           {/* =============== */}
@@ -101,7 +92,7 @@ const NewArrivals = () => {
       <div className="py-[100px]">
         <Container>
           <Link to={"/"}>
-            <Image imgSrc={addsTwo} className={"w-full"} />
+            <Image imgSrc={Hello} className={"w-full"} />
           </Link>
         </Container>
       </div>
@@ -113,22 +104,22 @@ const NewArrivals = () => {
            {/* =============== */}
           <Slider {...settings}>
             <div>
-              <Product productImg={cap} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={table} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={headphn} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={sunglass} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={cap} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={headphn} bdgText={"New"} />
+              <Product productImg={Hello} bdgText={"New"} />
             </div>
           </Slider>
           {/* =============== */}
