@@ -2,9 +2,9 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
-import adone from "/src/assets/Ad1.png"
-import adTwo from "/src/assets/Ad_2.png"
-import adThree from "/src/assets/Ad_3.png"
+import adone from "/src/assets/ad1.png"
+import adTwo from "/src/assets/ad_2.png"
+import adThree from "/src/assets/ad_3.png"
 import { Link } from "react-router-dom";
 
 const Ads = () => {

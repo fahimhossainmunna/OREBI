@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
-import logo from "/src/assets/Logo.png";
+import logo from "/src/assets/logo.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";

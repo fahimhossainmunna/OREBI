@@ -3,7 +3,7 @@ import Container from "../Container";
 import Flex from "../Flex";
 import { Link } from "react-router-dom";
 import Image from "../Image";
-import flogo from "/src/assets/Logo.png"
+import flogo from "/src/assets/logo.png"
 import { FaFacebookF,FaLinkedin,FaInstagram   } from "react-icons/fa";
 
 
