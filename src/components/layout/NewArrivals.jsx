@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Product from "../Product";
-import Hello from "/src/assets/cap.png";
+import Hello from "/src/assets/cat.png";
 
 import { Link } from "react-router-dom";
 import Image from "../Image";
