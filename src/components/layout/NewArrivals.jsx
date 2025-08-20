@@ -8,10 +8,11 @@ import bucket from "/src/assets/bucket.png";
 import cat from "/src/assets/cat.png";
 import { Link } from "react-router-dom";
 import Image from "../Image";
-import addsTwo from "/src/assets/ads_2.png";
-
-
-
+import addsTwo from "/src/assets/ads2.png";
+import bottle from "/src/assets/bottol.png";
+import backPack from "/src/assets/bagpack.png";
+import mashla from "/src/assets/moshla.png";
+import backPacktwoo from "/src/assets/backPacktwo.png";
 
 import cap from "/src/assets/cap.png";
 import table from "/src/assets/table.png";
@@ -69,7 +70,33 @@ const NewArrivals = () => {
         </Container>
       </div>
       <div className="py-6">
-      
+        <Container>
+          <h3 className="text-[39px] font-bold text-menuHover my-[70px]">
+            Our Bestsellers
+          </h3>
+          {/* =============== */}
+          <Slider {...settings}>
+            <div>
+              <Product productImg={bottle} bdgText={"New"} />
+            </div>
+            <div>
+              <Product productImg={backPack} bdgText={"New"} />
+            </div>
+            <div>
+              <Product productImg={mashla} bdgText={"New"} />
+            </div>
+            <div>
+              <Product productImg={backPacktwoo} bdgText={"New"} />
+            </div>
+            <div>
+              <Product productImg={bottle} bdgText={"New"} />
+            </div>
+            <div>
+              <Product productImg={backPack} bdgText={"New"} />
+            </div>
+          </Slider>
+          {/* =============== */}
+        </Container>
       </div>
       <div className="py-[100px]">
         <Container>

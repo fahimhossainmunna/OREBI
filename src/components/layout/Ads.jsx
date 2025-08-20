@@ -3,8 +3,8 @@ import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
 import adone from "/src/assets/ad1.png"
-import adTwo from "/src/assets/ad_2.png"
-import adThree from "/src/assets/ad_3.png"
+import adTwo from "/src/assets/ad2.png"
+import adThree from "/src/assets/ad3.png"
 import { Link } from "react-router-dom";
 
 const Ads = () => {
