@@ -12,7 +12,7 @@ import addsTwo from "/src/assets/ads2.png";
 import bottle from "/src/assets/bottol.png";
 import backPack from "/src/assets/bagpack.png";
 import mashla from "/src/assets/moshla.png";
-import backPacktwoo from "/src/assets/backPacktwo.png";
+import munna from "/src/assets/backpacktwo.png";
 
 import cap from "/src/assets/cap.png";
 import table from "/src/assets/table.png";
@@ -86,7 +86,7 @@ const NewArrivals = () => {
               <Product productImg={mashla} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={backPacktwoo} bdgText={"New"} />
+              <Product productImg={munna} bdgText={"New"} />
             </div>
             <div>
               <Product productImg={bottle} bdgText={"New"} />
