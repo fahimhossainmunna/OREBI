@@ -3,7 +3,7 @@ import Container from "../Container";
 import Flex from "../Flex";
 import { Link } from "react-router-dom";
 import Image from "../Image";
-import flogo from "/src/assets/footerlogo.png"
+import Logo from "/src/assets/footerlogo.png"
 import { FaFacebookF,FaLinkedin,FaInstagram   } from "react-icons/fa";
 
 
@@ -109,7 +109,7 @@ const Footer = () => {
               <p className="text=[14px] py-2 text-[#6D6D6D] leading-[23px]">575 Crescent Ave. Quakertown, PA 18951</p>
             </div>
             <div className="">
-              <Image imgSrc={flogo}/>
+              <Image imgSrc={Logo}/>
             </div>
             
           </Flex>

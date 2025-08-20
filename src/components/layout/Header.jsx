@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
-import logo from "/src/assets/logo.png";
+import Logo from "/src/assets/logo.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
@@ -19,7 +19,7 @@ const Header = () => {
             <div className="w-[40%]">
               <Link to={"/"}>
                 {" "}
-                <Image imgSrc={logo} />
+                <Image imgSrc={Logo} />
               </Link>
             </div>
             <div className="w-[70%]">

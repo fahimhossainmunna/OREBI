@@ -3,6 +3,7 @@ import Container from "../Container";
 import Flex from "../Flex";
 import Product from "../Product";
 import Hello from "/src/assets/cat.png";
+import Abc from "/src/assets/clock.png";
 
 import { Link } from "react-router-dom";
 import Image from "../Image";
@@ -42,10 +43,10 @@ const NewArrivals = () => {
               <Product productImg={Hello} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={Hello} bdgText={"New"} />
+              <Product productImg={Abc} bdgText={"New"} />
             </div>
             <div>
-              <Product productImg={Hello} bdgText={"New"} />
+              <Product productImg={Abc} bdgText={"New"} />
             </div>
             <div>
               <Product productImg={Hello} bdgText={"New"} />
